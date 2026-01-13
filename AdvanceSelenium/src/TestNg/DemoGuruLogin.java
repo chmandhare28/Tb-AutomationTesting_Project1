@@ -63,7 +63,10 @@ public class DemoGuruLogin {
 		driver.findElement(LoginButton).click();
 //		File Screenshort = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE); 
 //		FileUtils.copyFile(screenshot,new File("Alert.png"))	;	
-//				
+//
+		//		File Screenshort = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE); 
+//		FileUtils.copyFile(screenshot,new File("Alert.png"))	;	
+//
 		Thread.sleep(2000);
 		String Message = null;
 		try {
@@ -117,3 +120,4 @@ public class DemoGuruLogin {
 	}
 
 }
+
