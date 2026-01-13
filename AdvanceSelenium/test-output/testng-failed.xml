@@ -3,17 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNg.DemoGuruLogin">
+      <class name="TestNg.FacebookLogin">
         <methods>
-          <include name="checkWithValidData" invocation-numbers="0"/>
-          <include name="afterMethod"/>
-          <include name="WindowMaximize"/>
-          <include name="openDemoGuru"/>
+          <include name="chechwithValidData"/>
           <include name="closeBrowser"/>
-          <include name="OpenBrower"/>
+          <include name="WindowMaximize"/>
           <include name="clearInputBox"/>
+          <include name="OpenBrower"/>
+          <include name="openDemoGuru"/>
         </methods>
-      </class> <!-- TestNg.DemoGuruLogin -->
+      </class> <!-- TestNg.FacebookLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
