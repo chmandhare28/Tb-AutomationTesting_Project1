@@ -52,6 +52,7 @@ public class DemoGuruLogin {
 	public void clearInputBox() {
 		driver.findElement(Username).clear();
 		driver.findElement(Password).clear();
+		driver.findElement(LoginButton).clear();
 
 	}
 
